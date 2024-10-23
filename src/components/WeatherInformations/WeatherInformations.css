@@ -1,0 +1,74 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.city {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: 1.2px;
+    -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #8d8f95 0%, #242a31 32%, #505a6a 53%, #2d2d2d 100%);
+}
+
+.description {
+    font-size: 1.2em;
+    color: rgb(197, 197, 197);
+    font-weight: 500;
+}
+
+.weather {
+    font-weight: 500;
+    font-size: 0.7em;
+    letter-spacing: 1.2px;
+    color: rgb(197, 197, 197);
+}
+
+.temp {
+    font-size: 1.8em;
+    color: white;
+}
+
+.info-container-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feels-like-container,
+.wind-container,
+.humidity-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 4px;
+    text-align: center;
+}
+
+.wind-container,
+.humidity-container {
+    border-left: 2px solid white;
+}
+
+.feels-like-text,
+.wind-text,
+.humidity-text {
+    font-weight: 600;
+    color: white;
+}
+
+.feels-like-data,
+.wind-data,
+.humidity-data {
+    font-weight: 500;
+    color: rgb(197, 197, 197);
+}
